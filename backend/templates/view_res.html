@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8">
+	<title>View</title>
+	<link href="home_css.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<h1>View Reservations</h1>
+
+    {% for person in people %} 
+       <li> {{ person[0] }}, {{ person[1] }}, {{ person[2] }}, {{ person[3] }} </li>
+    {% endfor %}
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Reserve Home</title>
+        <link rel="stylesheet" type="text/css" href="home_css.css">
+    </head>
+    <body>
+        <h1>Hi</h1>
+        
+        <form action ="{{url_for('add_user')}}" method="post">
+
+            <label for="NetID">NetID:</label><br>
+            <input type="text" id="NetID" name="NetID"><br>
+            <label for="Dorm">Dorm:</label><br>
+            <input type="text" id="Dorm" name="Dorm"><br>
+            <label for="FirstName">First name:</label><br>
+            <input type="text" id="FirstName" name="FirstName"><br>
+            <label for="LastName">Last name:</label><br>
+            <input type="text" id="LastName" name="LastName"><br><br>
+            <input type="submit" value="Submit">
+
+        </form>
+    </body>
+</html>

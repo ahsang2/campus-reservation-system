@@ -1,0 +1,75 @@
+/* this code is based from https://youtu.be/05ZHUuQVvJM */
+
+@font-face{
+   font-family: Cookie; 
+   src: url("fonts/GloriaHallelujah-Regular.ttf")
+ }
+ 
+ @font-face{
+   font-family: sub; 
+   src: url("fonts/BarlowSemiCondensed-Regular.ttf")
+ }
+ 
+.section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.section h1 {
+  text-align: center;
+  font-size: 4.5rem;
+  font-family: "Cookie";
+  padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+.section p {
+  font-size: 2rem;
+  font-family: "sub";
+  padding: 10px;
+  margin: 15px;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+.section p1 {
+  font-size: 2rem;
+  font-family: "Cookie";
+  padding: 10px;
+  margin: 15px;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+.section p2 {
+  font-size: 2rem;
+  font-family: "Cookie";
+  padding: 10px;
+  margin: 15px;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.2;
+}

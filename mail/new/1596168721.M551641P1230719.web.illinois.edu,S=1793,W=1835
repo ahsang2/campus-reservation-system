@@ -1,0 +1,42 @@
+Return-Path: <reservation@web.illinois.edu>
+Delivered-To: reservation@web.illinois.edu
+Received: from web.illinois.edu
+	by web.illinois.edu with LMTP
+	id aLUeHhGaI19/xxIATivVWg
+	(envelope-from <reservation@web.illinois.edu>)
+	for <reservation@web.illinois.edu>; Thu, 30 Jul 2020 23:12:01 -0500
+Return-path: <reservation@web.illinois.edu>
+Envelope-to: reservation@web.illinois.edu
+Delivery-date: Thu, 30 Jul 2020 23:12:01 -0500
+Received: from reservation by web.illinois.edu with local (Exim 4.93)
+	(envelope-from <reservation@web.illinois.edu>)
+	id 1k1MOn-005Jal-En
+	for reservation@web.illinois.edu; Thu, 30 Jul 2020 23:12:01 -0500
+From: "(Cron Daemon)" <reservation@web.illinois.edu>
+To: reservation@web.illinois.edu
+Subject: Cron <reservation@web> wget http://reservation.web.illinois.edu/create_slots.php
+Content-Type: text/plain; charset=UTF-8
+Auto-Submitted: auto-generated
+Precedence: bulk
+X-Cron-Env: <XDG_SESSION_ID=c12235>
+X-Cron-Env: <XDG_RUNTIME_DIR=/run/user/4795>
+X-Cron-Env: <LANG=en_US.UTF-8>
+X-Cron-Env: <SHELL=/bin/bash>
+X-Cron-Env: <HOME=/home/reservation>
+X-Cron-Env: <PATH=/usr/bin:/bin>
+X-Cron-Env: <LOGNAME=reservation>
+X-Cron-Env: <USER=reservation>
+Message-Id: <E1k1MOn-005Jal-En@web.illinois.edu>
+Date: Thu, 30 Jul 2020 23:12:01 -0500
+
+--2020-07-30 23:12:01--  http://reservation.web.illinois.edu/create_slots.php
+Resolving reservation.web.illinois.edu (reservation.web.illinois.edu)... 18.220.149.166
+Connecting to reservation.web.illinois.edu (reservation.web.illinois.edu)|18.220.149.166|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘create_slots.php’
+
+     0K ..                                                     94.1M=0s
+
+2020-07-30 23:12:01 (94.1 MB/s) - ‘create_slots.php’ saved [2468]
+

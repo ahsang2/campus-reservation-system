@@ -1,0 +1,32 @@
+.home_title {
+    color: white;
+    transform: translateY(20%);
+    font-size: 24px;
+    font-family: Verdana;
+}
+
+.title_div {
+    background-color: #002955;
+    text-align: center;
+    height: 150px;
+}
+
+.res_button {
+    border: 0;
+    width: 20%;
+    height: 50px;
+}
+
+.add_user_button {
+    text-align: right;
+    height: 10px;
+    background-color: white;
+    display: inline-block;
+}
+
+.user_button {
+    border: 0;
+    color: #49586e;
+    background-color: white;
+    font-family: Verdana;
+}

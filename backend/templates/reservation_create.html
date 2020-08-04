@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8">
+	<title>Reserve Home</title>
+	<link href="home_css.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<h1>Make A Reservation</h1>
+
+<form action="{{url_for('book_reservation')}}" method="post"><label for="NetID">NetID:</label><br />
+<input id="NetID" name="NetID" type="text" /><br />
+<label for="Location">Location:</label><br />
+<select id="Location" name="Location"><option value="ARC1">Activities and Recreation Center Level 1</option><option value="ARC2">Activities and Recreation Center Level 2</option><option value="ARC3">Activities and Recreation Center Level 3</option><option value="CRCE1">Campus Recreation Center East Level 1</option><option value="CRCE2">Campus Recreation Center East Level 2</option><option value="IKE1">Ikenberry Dining Center Level 1</option><option value="IKE2">Ikenberry Dining Center Level 2</option> </select><br />
+<label for="Time">Time:</label><br />
+<input id="Time" name="Time" type="text" /></form>
+</body>
+</html>
