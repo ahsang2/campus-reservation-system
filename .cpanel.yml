@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/reservation/public_html/
+    - export DEPLOYPATH=/home/reservation/
     - /bin/cp -R * $DEPLOYPATH
